@@ -1,0 +1,8 @@
+# Kestra configuration
+kestra:
+  repository:
+    type: h2  # Using H2 database for simplicity (alternatives: mysql, postgres)
+  storage:
+    type: local
+    local:
+      base-path: /tmp/kestra_storage
